@@ -90,7 +90,7 @@
 }
 
 #programs-slider .splide__arrow {
-    background: #fff !important;
+    background: #ffd3b3 !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 #programs-slider .splide__arrow svg {
@@ -98,6 +98,19 @@
 }
 #programs-slider .splide__pagination__page.is-active {
     background: #F97316;
+}
+
+@media (max-width: 768px) {
+    #programs-slider .splide__arrow--prev {
+        left: 0rem !important;
+    }
+    #programs-slider .splide__arrow--next {
+        right: 0rem !important;
+    }
+
+    #programs-slider .splide__pagination {
+        bottom: -2.5em !important;
+    }
 }
 
 .splide__arrow--prev {
