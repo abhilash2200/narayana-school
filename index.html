@@ -1,0 +1,1831 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narayana Schools West Bengal</title>
+
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Preload critical font for faster text render -->
+    <link rel="preload" href="assets/fonts/Gilroy-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: "#00549E",
+                        brandYellow: "#FFD700",
+                        brandOrange: "#F97316",
+                        brandOrangeLight: "#FFF7ED",
+                        brandOrangeDark: "#ea580c",
+                        brandBlueDark: "#00427a",
+                        brandGreen: "#00A651",
+                    },
+                    fontFamily: {
+                        sans: ["Gilroy", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="font-sans antialiased bg-white text-gray-800 overflow-x-hidden">
+    <div class="bg-[#2a2a2a] h-1 w-full"></div>
+    <nav class="bg-white shadow-md py-3 px-4 md:px-6 sticky top-0 z-50" data-aos="fade-down" data-aos-duration="600">
+        <div class="container mx-auto flex justify-center items-center">
+            <div class="flex items-center gap-2 md:gap-4">
+                <div class="flex items-center gap-1.5 md:gap-2">
+                    <img src="assets/narayana-logo.png" alt="Narayana Logo" class="h-8 md:h-12 object-contain" />
+                </div>
+                <div class="h-8 md:h-10 w-px bg-gray-300"></div>
+                <div class="flex items-center gap-1 md:gap-2">
+                    <img src="assets/logo1.png" alt="Narayana Logo" class="h-8 md:h-12 object-contain" />
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section
+        class="bg-[url('assets/bvanner.webp')] bg-cover bg-center min-h-[auto] py-12 lg:min-h-[650px] lg:py-0 lg:pt-20 pt-0 flex items-center relative -mt-1 overflow-x-hidden">
+        <div class="container mx-auto px-4 relative z-20 w-full">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-12">
+                <div class="text-white lg:w-3/5 text-center lg:text-left" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    <h2 class="text-lg md:text-2xl font-medium mb-1">
+                        One Of Largest CBSE School Network
+                    </h2>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-brandYellow mb-6 lg:mb-8 leading-tight">
+                        Narayana School
+                    </h1>
+
+                    <div id="hero-stats" class="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-6 mb-6 lg:mb-8">
+                        <div data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-2xl md:text-3xl font-bold">
+                                <span class="counter" data-target="900">0</span>+
+                            </div>
+                            <div class="text-xs md:text-sm text-blue-100">Campus</div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="200">
+                            <div class="text-2xl md:text-3xl font-bold">
+                                <span class="counter" data-target="250">0</span>+
+                            </div>
+                            <div class="text-xs md:text-sm text-blue-100">Cities</div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="300">
+                            <div class="text-2xl md:text-3xl font-bold">
+                                <span class="counter" data-target="47">0</span>+
+                            </div>
+                            <div class="text-xs md:text-sm text-blue-100">Legacy</div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="400">
+                            <div class="text-2xl md:text-3xl font-bold">
+                                <span class="counter" data-target="600000">0</span>+
+                            </div>
+                            <div class="text-xs md:text-sm text-blue-100">
+                                Learners All Over India
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-3 mb-8 text-sm md:text-base font-light text-left inline-block lg:block">
+                        <li class="flex items-start md:items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-white rounded-full mt-2 md:mt-0 flex-shrink-0"></span>
+                            Technologically driven stress-free curriculum
+                        </li>
+                        <li class="flex items-start md:items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-white rounded-full mt-2 md:mt-0 flex-shrink-0"></span>Asia’s one
+                            of the largest educational conglomerates
+                        </li>
+                        <li class="flex items-start md:items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-white rounded-full mt-2 md:mt-0 flex-shrink-0"></span>
+                            Learning that leads to careers, not just certificates
+                        </li>
+                    </ul>
+
+                    <div class="flex justify-center lg:justify-start">
+                        <button
+                            class="open-modal-btn bg-brandOrange hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-md flex items-center gap-2 transition shadow-lg w-full md:w-auto justify-center">
+                            <i class="fas fa-phone-alt transform -scale-x-100"></i> Get Call
+                            Back
+                        </button>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[400px] bg-white rounded-xl shadow-2xl border-2 border-brandOrange overflow-hidden mx-auto"
+                    data-aos="fade-left" data-aos-duration="1000">
+                    <div class="p-5 md:p-6">
+                        <h3 class="text-lg md:text-xl font-bold text-black mb-4">
+                            Admission Open
+                        </h3>
+                        <form class="space-y-3">
+                            <input type="text" placeholder="Student Name" required
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:border-brandBlue" />
+                            <input type="tel" placeholder="Ph. Number" required pattern="[0-9]{10}"
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:border-brandBlue" />
+                            <input type="email" placeholder="Parent's Email (Optional)"
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:border-brandBlue" />
+                            <select required
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm text-gray-500 bg-white focus:border-brandBlue">
+                                <option selected value="">Select City</option>
+                                <option value="BARDHAMAN">BARDHAMAN</option>
+                                <option value="Coochbehar">Coochbehar</option>
+                                <option value="Contai">Contai</option>
+                                <option value="DARJEELING">DARJEELING</option>
+                                <option value="EAST MIDNAPORE">EAST MIDNAPORE</option>
+                                <option value="HOOGHLY">HOOGHLY</option>
+                                <option value="Howrah">Howrah</option>
+                                <option value="KALIMPONG">KALIMPONG</option>
+                                <option value="Kolkata">Kolkata</option>
+                                <option value="Murshidabad">Murshidabad</option>
+                                <option value="Nadia">Nadia</option>
+                                <option value="NORTH 24 PARGANAS">NORTH 24 PARGANAS</option>
+                                <option value="NORTH DINAJPUR">NORTH DINAJPUR</option>
+                                <option value="PURULIA">PURULIA</option>
+                            </select>
+                            <select required
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm text-gray-500 bg-white focus:border-brandBlue">
+                                <option selected value="">Select Branch</option>
+                            </select>
+                            <select required
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm text-gray-500 bg-white focus:border-brandBlue">
+                                <option selected value="">Select Board</option>
+                            </select>
+                            <select required
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm text-gray-500 bg-white focus:border-brandBlue">
+                                <option selected value="">Select Reservation Type</option>
+                            </select>
+                            <select required
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-sm text-gray-500 bg-white focus:border-brandBlue">
+                                <option selected value="">Select Class</option>
+                            </select>
+                            <div class="mt-2 flex flex-col gap-2">
+                                <button type="button" onclick="sendOtp()"
+                                    class="w-full md:w-auto bg-brandOrange hover:bg-orange-600 text-white font-bold py-2.5 px-6 rounded text-sm transition inline-flex items-center justify-center gap-2">
+                                    <span id="btnText">Get OTP</span>
+                                    <svg id="loader" class="hidden w-5 h-5 animate-spin text-white shrink-0"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                            stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor"
+                                            d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+                                    </svg>
+                                </button>
+                                <span id="statusText" class="hidden text-sm text-green-600 font-medium">OTP sent successfully.</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-white overflow-hidden">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-10 md:mb-12" data-aos="fade-up">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-3">
+                    Where do you want to start from?
+                </h2>
+                <p class="text-gray-500 text-sm md:text-base px-4">
+                    We shape your child futures with care – from pre-primary dreams to
+                    higher-secondary success.
+                </p>
+            </div>
+
+            <div id="programs-slider" class="splide mx-auto" aria-label="Academic Programs">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div
+                                class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 flex flex-col h-full">
+                                <div class="h-72 relative rounded-t-xl overflow-hidden">
+                                    <img src="assets/e-kidz.webp" alt="Kid"
+                                        class="absolute inset-0 w-full h-full object-cover z-0" />
+                                    <div class="absolute top-0 left-0 p-4 text-white z-10">
+                                        <h3 class="font-bold text-[24px] text-white leading-tight">
+                                            eKidz
+                                        </h3>
+                                        <p class="text-lg font-medium text-white mt-0.5 leading-tight">
+                                            (Nursery to UKG)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="p-6 flex-grow">
+                                    <h4 class="text-gray-700 text-[20px] font-semibold mb-3">
+                                        We Know Your Concern
+                                    </h4>
+                                    <ul class="space-y-2 text-[15px] font-medium text-gray-600">
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Holistic Curriculum
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Personal Attention & safety
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Personalized safety and Hygiene
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Holistic Development Activities
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex text-white text-sm font-semibold">
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandOrange hover:bg-brandOrangeDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Brochure</button><button
+                                        class="open-modal-btn w-1/2 bg-brandBlue hover:bg-brandBlueDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Fees
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div
+                                class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 flex flex-col h-full">
+                                <div class="h-72 relative rounded-t-xl overflow-hidden">
+                                    <img src="assets/echamps.webp" alt="eChamps"
+                                        class="absolute inset-0 w-full h-full object-cover z-0" />
+                                    <div class="absolute top-0 left-0 p-4 text-white z-10">
+                                        <h3 class="font-bold text-[24px] text-white leading-tight">
+                                            eChamps
+                                        </h3>
+                                        <p class="text-lg font-medium text-white mt-0.5 leading-tight">
+                                            (Class 1 to 5)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="p-6 flex-grow">
+                                    <h4 class="text-gray-700 text-[20px] font-semibold mb-3 leading-[1.2]">
+                                        Emphasises the overall development
+                                    </h4>
+                                    <ul class="space-y-2 text-[15px] font-medium text-gray-600">
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Communication Skills
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Social Skills
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Emotional Skills
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Focus On Overall Development
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex text-white text-sm font-semibold">
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandOrange hover:bg-brandOrangeDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Brochure
+                                    </button>
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandBlue hover:bg-brandBlueDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Fees
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div
+                                class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 flex flex-col h-full">
+                                <div class="h-72 relative rounded-t-xl overflow-hidden">
+                                    <img src="assets/etchno.webp" alt="eTechno"
+                                        class="absolute inset-0 w-full h-full object-cover z-0" />
+                                    <div class="absolute top-0 left-0 p-4 text-white z-10">
+                                        <h3 class="font-bold text-[24px] text-white leading-tight">
+                                            eTechno
+                                        </h3>
+                                        <p class="text-lg font-medium text-white mt-0.5 leading-tight">
+                                            (Class 6 to 10)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="p-6 flex-grow">
+                                    <h4 class="text-gray-700 text-[20px] font-semibold mb-3 leading-[1.2]">
+                                        Preparing for careers, not just certificates.
+                                    </h4>
+                                    <ul class="space-y-2 text-[15px] font-medium text-gray-600">
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Integrated Competitive Exam Prep
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Structured Learning Approach
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Technology-Enabled Framework
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] text-brandBlue mr-2"></i>
+                                            Personalized Mentorship and Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex text-white text-sm font-semibold">
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandOrange hover:bg-brandOrangeDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Brochure
+                                    </button>
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandBlue hover:bg-brandBlueDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Fees
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div
+                                class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300 flex flex-col h-full">
+                                <div class="h-72 relative rounded-t-xl overflow-hidden">
+                                    <img src="assets/secondary.webp" alt="SR. Secondary"
+                                        class="absolute inset-0 w-full h-full object-cover z-0" />
+                                    <div class="absolute top-0 left-0 p-4 text-white z-10">
+                                        <h3 class="font-bold text-[24px] text-white leading-tight">
+                                            SR. Secondary
+                                        </h3>
+                                        <p class="text-lg font-medium text-white mt-0.5 leading-tight">
+                                            (Class 11 & 12)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="p-6 flex-grow">
+                                    <h4 class="text-gray-700 text-[20px] font-semibold mb-3 leading-[1.2]">
+                                        CBSE schooling that opens doors to top competitive exams.
+                                    </h4>
+                                    <ul class="space-y-2 text-[15px] font-medium text-gray-600">
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] font-semibold text-brandBlue mr-2"></i>
+                                            Integrated coaching for competitive Exams
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] font-semibold text-brandBlue mr-2"></i>
+                                            Learning: Critical Thinking and Time Management
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-circle text-[6px] font-semibold text-brandBlue mr-2"></i>
+                                            Mentorship and Wellness Support for Growth
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="flex text-white text-sm font-semibold">
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandOrange hover:bg-brandOrangeDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Brochure
+                                    </button>
+                                    <button
+                                        class="open-modal-btn w-1/2 bg-brandBlue hover:bg-brandBlueDark py-3 transition">
+                                        <i class="fas fa-download hidden sm:inline-block"></i>
+                                        Fees
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-20 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-4 md:px-6">
+            <div class="text-center mb-10 md:mb-16" data-aos="fade-up">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
+                    Why Parents Choose Narayana Over Other Schools
+                </h2>
+                <p class="text-gray-500 text-sm md:text-base">
+                    A system built for consistency, discipline, and results.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-x-8 md:gap-y-16">
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 bg-brandOrangeLight rounded-full flex items-center justify-center mb-4 md:mb-6">
+                        <img src="assets/book-icon.png" alt="book-icon" class="" />
+                    </div>
+                    <h3 class="font-bold text-base md:text-lg mb-2 md:mb-3 text-gray-800">
+                        Integrated Curriculum
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-base leading-relaxed max-w-xs">
+                        The syllabus includes the foundations and advanced concepts for
+                        competitive examinations.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 bg-brandOrangeLight rounded-full flex items-center justify-center mb-4 md:mb-6">
+                        <img src="assets/calender-icon.png" alt="calendar-icon" class="" />
+                    </div>
+                    <h3 class="font-bold text-base md:text-lg mb-2 md:mb-3 text-gray-800">
+                        Structured "Micro Schedule"
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-base leading-relaxed max-w-xs">
+                        A concrete plan for consistent progress and coverage of the vast
+                        syllabus.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 bg-brandOrangeLight rounded-full flex items-center justify-center mb-4 md:mb-6">
+                        <img src="assets/scarch-icon.png" alt="scarch-icon" class="" />
+                    </div>
+                    <h3 class="font-bold text-base md:text-lg mb-2 md:mb-3 text-gray-800">
+                        Early Start on Competitive Prep
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-base leading-relaxed max-w-xs">
+                        Advanced concepts start from grade 6, giving them an edge over
+                        other students.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 bg-brandOrangeLight rounded-full flex items-center justify-center mb-4 md:mb-6">
+                        <img src="assets/book-icon.png" alt="book-icon" class="" />
+                    </div>
+                    <h3 class="font-bold text-base md:text-lg mb-2 md:mb-3 text-gray-800">
+                        Tech-Enabled Learning
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-base leading-relaxed max-w-xs">
+                        In-house digital platforms integrate technology into the learning
+                        process for more efficiency.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 bg-brandOrangeLight rounded-full flex items-center justify-center mb-4 md:mb-6">
+                        <img src="assets/calender-icon.png" alt="calendar-icon" class="" />
+                    </div>
+                    <h3 class="font-bold text-base md:text-lg mb-2 md:mb-3 text-gray-800">
+                        Personalized Attention & Monitoring
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-base leading-relaxed max-w-xs">
+                        In the "Adoption Calling" program, a mentor teacher tracks the
+                        students' holistic development.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div
+                        class="w-16 h-16 md:w-20 md:h-20 bg-brandOrangeLight rounded-full flex items-center justify-center mb-4 md:mb-6">
+                        <img src="assets/scarch-icon.png" alt="scarch-icon" class="" />
+                    </div>
+                    <h3 class="font-bold text-base md:text-lg mb-2 md:mb-3 text-gray-800">
+                        Holistic Development Support
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-base leading-relaxed max-w-xs">
+                        Soft skills, nSports, and Disha program foster well-rounded
+                        individuals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-16 overflow-hidden bg-[#fbfbfb]">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div class="order-2 md:order-1" data-aos="fade-right">
+                    <img src="assets/kidz1.webp" alt="Kids playing" class="w-[90%] h-auto object-cover mb-8 md:mb-10" />
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-shield-alt text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Safety:
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We prioritise a safe and hygienic
+                                    environment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We ensure a safe and secure
+                                    campus</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-city text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                State-of-the-Art Infrastructure:
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Our facilities include well-structured
+                                    play areas.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Tech-enabled framework featuring
+                                    CCTV.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Advanced apps for parent-school
+                                    connectivity.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2" data-aos="fade-left">
+                    <div class="flex items-center mb-6 md:mb-8 group justify-center md:justify-start">
+                        <div
+                            class="bg-[#4782ED] text-white w-20 h-16 md:w-12 md:h-12 lg:w-20 lg:h-20 flex justify-center items-center rounded-full text-sm font-bold relative z-10 border-2 border-[#F5821F] group-hover:bg-[#F5821F] group-hover:scale-110 transition-all duration-300">
+                            <img src="assets/user.png" alt="user" class="w-10 h-10 md:w-8 md:h-8 brightness-0 invert" />
+                        </div>
+                        <div
+                            class="-ml-6 md:-ml-8 bg-[#F5821F] md:w-[305px] w-full text-white px-8 md:px-12 py-3 md:py-3 rounded-md group-hover:bg-[#4782ED] transition-colors duration-300">
+                            <span class="text-lg md:text-[18px] font-bold">eKidz</span><span
+                                class="text-sm md:text-[18px] font-semibold">
+                                (Nursery to UKG)</span>
+                        </div>
+                    </div>
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-open text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Age appropriate curriculum:
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Meets the developmental needs of each
+                                    child</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Perfect balance of fun and
+                                    learning</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Commitment to personal attention</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-8 md:mb-10">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-reader text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Personal attention:
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Optimal student-teacher ratio.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Individual guidance and support.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A warm, nurturing environment.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We maintain rigorous safety
+                                    protocols.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="assets/kidz2.webp" alt="School Bus" class="w-[90%] h-auto object-cover hidden md:block" />
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mt-12 md:mt-16" data-aos="zoom-in"
+                data-aos-delay="200">
+                <button
+                    class="w-full sm:w-auto bg-brandBlueDark hover:bg-brandBlue text-white font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Download Brochure
+                </button>
+                <button
+                    class="open-modal-btn w-full sm:w-auto bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow transition">
+                    <i class="fas fa-headset text-brandOrange"></i> Get Call Back for
+                    Your Query
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-16 overflow-hidden bg-[#f1f9ff]">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div class="order-2 md:order-1" data-aos="fade-right">
+                    <img src="assets/Champ1.webp" alt="Kids playing"
+                        class="w-[90%] h-auto object-cover mb-8 md:mb-10" />
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-shield-alt text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Conceptual Understanding
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">An activity-based learning approach
+                                    (Classes 1-2).</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Older students benefit from
+                                    experiential learning (Classes 3-5).</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Fosters a deeper understanding of
+                                    concepts.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-city text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Safe & Positive Learning Environment
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A space where students feel motivated
+                                    and supported.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Spacious play areas and convenient
+                                    transport facilities.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2" data-aos="fade-left">
+                    <div class="flex items-center mb-6 md:mb-8 group justify-center md:justify-start">
+                        <div
+                            class="bg-[#4782ED] text-white w-20 h-16 md:w-12 md:h-12 lg:w-20 lg:h-20 flex justify-center items-center rounded-full text-sm font-bold relative z-10 border-2 border-[#F5821F] group-hover:bg-[#F5821F] group-hover:scale-110 transition-all duration-300">
+                            <img src="assets/big-book-icon.png" alt="user"
+                                class="w-10 h-10 md:w-8 md:h-8 brightness-0 invert" />
+                        </div>
+                        <div
+                            class="-ml-6 md:-ml-8 bg-[#F5821F] md:w-[305px] w-full text-white px-8 md:px-12 py-3 md:py-3 rounded-md group-hover:bg-[#4782ED] transition-colors duration-300">
+                            <span class="text-lg md:text-[18px] font-bold">eChamps</span><span
+                                class="text-sm md:text-[18px] font-semibold">
+                                (Class 1 to 5)</span>
+                        </div>
+                    </div>
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-open text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Our Unique Approach to Learning
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Focus on overall development of the
+                                    child</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Academic excellence blends with other
+                                    skills</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Creating a safe and nurturing learning
+                                    environment</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-8 md:mb-10">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-reader text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Common Micro Schedule
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Curriculum broken down into daily and
+                                    monthly modules.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">IImplemented uniformly across all our
+                                    branches nationwide.</span>
+                            </li>
+                            <!-- <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A warm, nurturing environment.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We maintain rigorous safety protocols.</span>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <img src="assets/Champ2.webp" alt="School Bus"
+                        class="w-[90%] h-auto object-cover hidden md:block" />
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mt-12 md:mt-16" data-aos="zoom-in"
+                data-aos-delay="200">
+                <button
+                    class="w-full sm:w-auto bg-brandBlueDark hover:bg-brandBlue text-white font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Download Brochure
+                </button>
+                <button
+                    class="open-modal-btn w-full sm:w-auto bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow transition">
+                    <i class="fas fa-headset text-brandOrange"></i> Get Call Back for
+                    Your Query
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="py-12 md:py-16 overflow-hidden bg-[#fbfbfb]">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div class="order-2 md:order-1" data-aos="fade-right">
+                    <img src="assets/techno1.webp" alt="Kids playing"
+                        class="w-[90%] h-auto object-cover mb-8 md:mb-10" />
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-shield-alt text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Adoption Calling Programme
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A dedicated mentor for each
+                                    student.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A regular parents Engagements.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Each student can realise their full
+                                    potential.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-city text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Personalized Error Analysis and Correction
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A detailed documented Error list for
+                                    re-learning.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Categorised both by question and
+                                    subject in each test.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">An individual error list is generated
+                                    for each student.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="assets/techno3.webp" alt="Kids playing"
+                        class="w-[90%] h-auto object-cover mt-8 md:mt-10" />
+                </div>
+
+                <div class="order-1 md:order-2" data-aos="fade-left">
+                    <div class="flex items-center mb-6 md:mb-8 group justify-center md:justify-start">
+                        <div
+                            class="bg-[#4782ED] text-white w-20 h-16 md:w-12 md:h-12 lg:w-20 lg:h-20 flex justify-center items-center rounded-full text-sm font-bold relative z-10 border-2 border-[#F5821F] group-hover:bg-[#F5821F] group-hover:scale-110 transition-all duration-300">
+                            <img src="assets/microscop.png" alt="user"
+                                class="w-10 h-10 md:w-8 md:h-8 brightness-0 invert" />
+                        </div>
+                        <div
+                            class="-ml-6 md:-ml-8 bg-[#F5821F] md:w-[305px] w-full text-white px-8 md:px-12 py-3 md:py-3 rounded-md group-hover:bg-[#4782ED] transition-colors duration-300">
+                            <span class="text-lg md:text-[18px] font-bold">eTechno</span><span
+                                class="text-sm md:text-[18px] font-semibold">
+                                (Class 6 to 10)</span>
+                        </div>
+                    </div>
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-open text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Comprehensive Curriculum
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A customised, integrated
+                                    curriculum.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Drawing the best of all boards for
+                                    deeper conceptual understanding.</span>
+                            </li>
+                            <!-- <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Creating a safe and nurturing learning environment</span>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="mb-8 md:mb-10">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-reader text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Common Micro Schedule
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Our expertly organised curriculum is
+                                    distributed across all branches nationwide, monthly and daily</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">The microschedule provides a detailed
+                                    breakdown of daily activities</span>
+                            </li>
+                            <!-- <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A warm, nurturing environment.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We maintain rigorous safety protocols.</span>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <img src="assets/techno2.webp" alt="School Bus"
+                        class="w-[90%] h-auto object-cover mb-8 md:mb-10 hidden md:block" />
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-shield-alt text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                DISHA Mental Wellness Programme
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Disha Programme focuses on
+                                    comprehensive well-being.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Offers extensive mental and emotional
+                                    support.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A child’s growth goes beyond
+                                    academics.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-city text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Olympiad Programme
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Designed for Olympiad aspirants.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Focus is on comprehensive
+                                    learning.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Integrates practical
+                                    applications.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Encourages students to think critically
+                                    & stand out.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mt-12 md:mt-16" data-aos="zoom-in"
+                data-aos-delay="200">
+                <button
+                    class="w-full sm:w-auto bg-brandBlueDark hover:bg-brandBlue text-white font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Download Brochure
+                </button>
+                <button
+                    class="open-modal-btn w-full sm:w-auto bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow transition">
+                    <i class="fas fa-headset text-brandOrange"></i> Get Call Back for
+                    Your Query
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-16 overflow-hidden bg-[#f1f9ff]">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                <div class="order-2 md:order-1" data-aos="fade-right">
+                    <img src="assets/secondary1.webp" alt="Kids playing"
+                        class="w-[90%] h-auto object-cover mb-8 md:mb-10" />
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-shield-alt text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Stress Management
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Senior secondary education can be
+                                    stressful.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Stress management techniques help to
+                                    stay calm under pressure.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Focus on their goals, and perform at
+                                    their best during exams.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-city text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-800">
+                                Research and self-study skills
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Success in competitive exams is
+                                    important.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Students must excel in self-study and
+                                    research.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We provide guidance and
+                                    resources.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2" data-aos="fade-left">
+                    <div class="flex items-center mb-6 md:mb-8 group justify-center md:justify-start">
+                        <div
+                            class="bg-[#4782ED] text-white w-20 h-16 md:w-12 md:h-12 lg:w-20 lg:h-20 flex justify-center items-center rounded-full text-sm font-bold relative z-10 border-2 border-[#F5821F] group-hover:bg-[#F5821F] group-hover:scale-110 transition-all duration-300">
+                            <img src="assets/hat.png" alt="user" class="w-10 h-10 md:w-8 md:h-8 brightness-0 invert" />
+                        </div>
+                        <div
+                            class="-ml-6 md:-ml-8 bg-[#F5821F] md:w-[350px] w-full text-white px-8 md:px-12 py-3 md:py-3 rounded-md group-hover:bg-[#4782ED] transition-colors duration-300">
+                            <span class="text-lg md:text-[18px] font-bold">SR. Secondary</span><span
+                                class="text-sm md:text-[18px] font-semibold">
+                                (Class 11 to 12)</span>
+                        </div>
+                    </div>
+                    <div class="mb-8">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-open text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Comprehensive Curriculum
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Additional teaching for IIT, NEET,
+                                    CA-CPT, and UPSC.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Students need more than just subject
+                                    knowledge</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">They require a comprehensive set of
+                                    life skills.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-8 md:mb-10">
+                        <div class="flex items-center gap-3 mb-3">
+                            <i class="fas fa-book-reader text-xl md:text-2xl text-gray-700"></i>
+                            <h3 class="text-lg md:text-[20px] font-bold text-gray-800">
+                                Time Management
+                            </h3>
+                        </div>
+                        <ul class="space-y-2 text-sm text-gray-600 pl-1">
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Essential to balancing academic
+                                    responsibilities with other activities.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Balancing competitive exam preparations
+                                    and extracurricular activities.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">Maintain a disciplined study routine
+                                    while pursuing their passions.</span>
+                            </li>
+                            <!-- <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">A warm, nurturing environment.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="far fa-check-circle text-gray-400 mt-1 mr-2 flex-shrink-0"></i>
+                                <span class="text-sm font-medium md:text-[18px]">We maintain rigorous safety protocols.</span>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <img src="assets/secondary2.webp" alt="School Bus"
+                        class="w-[90%] h-auto object-cover mb-8 md:mb-10 hidden md:block" />
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mt-12 md:mt-16" data-aos="zoom-in"
+                data-aos-delay="200">
+                <button
+                    class="w-full sm:w-auto bg-brandBlueDark hover:bg-brandBlue text-white font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Download Brochure
+                </button>
+                <button
+                    class="open-modal-btn w-full sm:w-auto bg-white border border-gray-300 hover:bg-gray-50 text-gray-700 font-bold py-3 px-8 rounded flex items-center justify-center gap-2 shadow transition">
+                    <i class="fas fa-headset text-brandOrange"></i> Get Call Back for
+                    Your Query
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 md:py-16 bg-white border-t border-gray-100 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 md:px-6">
+            <div class="text-center mb-10" data-aos="fade-up">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
+                    Is Narayana the Right School for Your Child?
+                </h2>
+                <p class="text-gray-500 text-sm">
+                    Every child is guided based on their learning needs
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="flex items-start gap-4 p-2" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex-shrink-0 mt-1">
+                        <i class="fas fa-check-circle text-brandGreen text-2xl md:text-3xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-brandBlue text-sm md:text-base leading-tight mb-2">
+                            Parents seeking strong academics
+                        </h3>
+                        <p class="text-gray-500 text-xs">
+                            Structured learning with proven results
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-2" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex-shrink-0 mt-1">
+                        <i class="fas fa-check-circle text-brandGreen text-2xl md:text-3xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-brandBlue text-sm md:text-base leading-tight mb-2">
+                            Students Preparing For Competitive Exams
+                        </h3>
+                        <p class="text-gray-500 text-xs">
+                            Foundation for IIT, NEET, and Olympiads
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-2" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex-shrink-0 mt-1">
+                        <i class="fas fa-check-circle text-brandGreen text-2xl md:text-3xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-brandBlue text-sm md:text-base leading-tight mb-2">
+                            Family looking for disciplined Learning
+                        </h3>
+                        <p class="text-gray-500 text-xs">
+                            Character building alongside academics
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4 p-2" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex-shrink-0 mt-1">
+                        <i class="fas fa-check-circle text-brandGreen text-2xl md:text-3xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-brandBlue text-sm md:text-base leading-tight mb-2">
+                            Parents who value long-term outcomes
+                        </h3>
+                        <p class="text-gray-500 text-xs">
+                            Investment is your child's future
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20">
+        <div class="container mx-auto px-4 md:px-6 py-8 text-center bg-[#d9d9d956] rounded-2xl">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-2" data-aos="fade-up">
+                Academic Results That Speak for Themselves
+            </h2>
+            <p class="text-gray-500 text-sm mb-8 md:mb-12" data-aos="fade-up" data-aos-delay="100">
+                Our students don't just pass CBSE - they excel nationally
+            </p>
+
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div id="academic-slider" class="splide max-w-6xl mx-auto" aria-label="Academic Results">
+                    <div class="splide__track py-4 md:py-10">
+                        <ul class="splide__list">
+                            <li class="splide__slide p-2">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-full h-full bg-brandBlue rounded-2xl flex items-end justify-center overflow-hidden mb-4 shadow-md">
+                                        <img src="assets/person1.png" alt="Trisha Ghosh"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                    <h3 class="font-bold text-base md:text-lg text-black">
+                                        Trisha Ghosh
+                                    </h3>
+                                    <div class="text-xl md:text-3xl font-bold text-brandBlue my-1">
+                                        498/500
+                                    </div>
+                                    <div class="text-[10px] md:text-xs text-gray-500 uppercase tracking-wide">
+                                        CBSE-X 2025
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide p-2">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-full h-full bg-brandBlue rounded-2xl flex items-end justify-center overflow-hidden mb-4 shadow-md">
+                                        <img src="assets/person2.png" alt="Reyansh Devnani"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                    <h3 class="font-bold text-base md:text-lg text-black">
+                                        Reyansh Devnani
+                                    </h3>
+                                    <div class="text-xl md:text-3xl font-bold text-brandBlue my-1">
+                                        495/500
+                                    </div>
+                                    <div class="text-[10px] md:text-xs text-gray-500 uppercase tracking-wide">
+                                        CBSE-XII 2025
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide p-2">
+                                <div class="flex flex-col items-center">
+                                    <div
+                                        class="w-full h-full bg-brandBlue rounded-2xl flex items-end justify-center overflow-hidden mb-4 shadow-md">
+                                        <img src="assets/person3.png" alt="S. Vakhin"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                    <h3 class="font-bold text-base md:text-lg text-black">
+                                        S. Vakhin
+                                    </h3>
+                                    <div class="text-xl md:text-3xl font-bold text-brandBlue my-1">
+                                        495/500
+                                    </div>
+                                    <div class="text-[10px] md:text-xs text-gray-500 uppercase tracking-wide">
+                                        CBSE-XII 2025
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-2" data-aos="zoom-in">
+                <button
+                    class="open-modal-btn w-full sm:w-auto bg-brandOrange hover:bg-orange-600 text-white font-bold py-3 px-8 rounded shadow-lg transition duration-300">
+                    <i class="fas fa-phone-alt transform -scale-x-100 mr-2"></i> Get
+                    Call Back for Your Query
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-white overflow-hidden">
+        <div class="container mx-auto px-4 md:px-6">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 text-center mb-10 md:mb-16"
+                data-aos="fade-up">
+                What parents say about Narayana?
+            </h2>
+
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div id="testimonial-slider" class="splide max-w-6xl mx-auto" aria-label="Parent Testimonials">
+                    <div class="splide__track pb-12">
+                        <ul class="splide__list">
+                            <li class="splide__slide p-2 h-auto">
+                                <div
+                                    class="border border-orange-300 rounded-xl p-5 md:p-6 bg-white h-full flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+                                    <div>
+                                        <div class="flex items-center gap-3 md:gap-4 mb-4">
+                                            <div
+                                                class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-orange-200 flex items-center justify-center bg-orange-50 flex-shrink-0">
+                                                <i class="far fa-user text-brandOrange text-lg md:text-xl"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-bold text-gray-800 text-base md:text-lg leading-tight">
+                                                    Noor Alam
+                                                </h4>
+                                                <p class="text-xs md:text-sm text-gray-500 mt-0.5">
+                                                    Fulbari
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="text-gray-600 text-xs md:text-sm leading-relaxed mb-6">
+                                            Narayana has exceeded our expectations in every way. The emphasis on values,
+                                            discipline, and academic rigor is helping shape our child into a responsible
+                                            and capable young adult.
+                                        </p>
+                                    </div>
+                                    <div class="text-yellow-400 text-xs md:text-sm flex gap-1">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide p-2 h-auto">
+                                <div
+                                    class="border border-orange-300 rounded-xl p-5 md:p-6 bg-white h-full flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+                                    <div>
+                                        <div class="flex items-center gap-3 md:gap-4 mb-4">
+                                            <div
+                                                class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-orange-200 flex items-center justify-center bg-orange-50 flex-shrink-0">
+                                                <i class="far fa-user text-brandOrange text-lg md:text-xl"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-bold text-gray-800 text-base md:text-lg leading-tight">
+                                                    Radhey Shyam Shaw
+                                                </h4>
+                                                <p class="text-xs md:text-sm text-gray-500 mt-0.5">
+                                                    Howrah
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="text-gray-600 text-xs md:text-sm leading-relaxed mb-6">
+                                            The supportive and encouraging atmosphere at Narayana has allowed my child
+                                            to thrive. We appreciate the dedicated staff and their personalized approach
+                                            to education.which is very good.
+                                        </p>
+                                    </div>
+                                    <div class="text-yellow-400 text-xs md:text-sm flex gap-1">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide p-2 h-auto">
+                                <div
+                                    class="border border-orange-300 rounded-xl p-5 md:p-6 bg-white h-full flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+                                    <div>
+                                        <div class="flex items-center gap-3 md:gap-4 mb-4">
+                                            <div
+                                                class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-orange-200 flex items-center justify-center bg-orange-50 flex-shrink-0">
+                                                <i class="far fa-user text-brandOrange text-lg md:text-xl"></i>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-bold text-gray-800 text-base md:text-lg leading-tight">
+                                                    Shubadip Bhiswas
+                                                </h4>
+                                                <p class="text-xs md:text-sm text-gray-500 mt-0.5">
+                                                    Kalyani Town
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="text-gray-600 text-xs md:text-sm leading-relaxed mb-6">
+                                            Narayana has transformed my child's learning experience. The teachers are
+                                            dedicated.My child looks forward to school every day, which speaks volumes
+                                            about the positive environment here.
+                                        </p>
+                                    </div>
+                                    <div class="text-yellow-400 text-xs md:text-sm flex gap-1">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-gray-50 overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10 md:mb-12" data-aos="fade-up">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-3">
+                    World-Class Campus & Facilities
+                </h2>
+                <p class="text-gray-500 text-sm md:text-base">
+                    Modern infrastructure designed to inspire learning and growth
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/digital-classroom.webp" alt="Digital Classroom" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-brandBlue font-bold text-base md:text-[22px] mb-2 md:mb-4">
+                            Digital Classroom
+                        </h3>
+                        <p class="text-gray-500 text-[15px] font-medium md:text-[15px] leading-relaxed">
+                            Technology-enabled learning spaces with interactive boards and
+                            digital resources
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/lab-activity.webp" alt="Lab & Activity Room" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-brandBlue font-bold text-base md:text-[22px] mb-2 md:mb-4">
+                            Lab & Activity Room
+                        </h3>
+                        <p class="text-gray-500 text-[15px] font-medium md:text-[15px] leading-relaxed">
+                            Well-equipped Physics, Chemistry, Biology, and Computer labs for
+                            hands-on learning
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/hostel.webp" alt="Hostel" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-brandBlue font-bold text-base md:text-[22px] mb-2 md:mb-4">
+                            Hostel
+                        </h3>
+                        <p class="text-gray-500 text-[15px] font-medium md:text-[15px] leading-relaxed">
+                            Comfortable and secure hostel facilities for students
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/spaciouscampus.webp" alt="Spacious Campus" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-brandBlue font-bold text-base md:text-[22px] mb-2 md:mb-4">
+                            Spacious Campus
+                        </h3>
+                        <p class="text-gray-500 text-[15px] font-medium md:text-[15px] leading-relaxed">
+                            Modern playgrounds, indoor sports facilities, and activity
+                            centers for holistic development
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/safetransportation.webp" alt="Safe Transport" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-brandBlue font-bold text-base md:text-[22px] mb-2 md:mb-4">
+                            Safe Transport
+                        </h3>
+                        <p class="text-gray-500 text-[15px] font-medium md:text-[15px] leading-relaxed">
+                            GPS-tracked buses covering major routes across the city
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/safe.webp" alt="Safety & Security" class="w-full object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-brandBlue font-bold text-base md:text-[22px] mb-2 md:mb-4">
+                            Safety & Security
+                        </h3>
+                        <p class="text-gray-500 text-[15px] font-medium md:text-[15px] leading-relaxed">
+                            24/7 CCTV surveillance, trained security personnel, biometric
+                            access control
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-white overflow-hidden">
+        <div class="container mx-auto px-4 md:px-6 max-w-7xl">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 text-center mb-8 md:mb-10"
+                data-aos="fade-up">
+                Frequently Asked Questions
+            </h2>
+            <div class="space-y-3 md:space-y-4">
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="50">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">1. What curriculum does
+                            Narayana Schools follow?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            A power-packed blend of CBSE, state board & competitive exam prep—IIT, NEET, UPSC, Olympiads
+                            & more!
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">2. What facilities are
+                            available on campus?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            Smart classrooms, high-tech labs, sports zones, libraries & activity hubs—learning meets
+                            fun!
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="150">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">3. How does the school ensure
+                            student safety?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            24/7 CCTV, trained security, fire safety & GPS-tracked buses—safe, secure & stress-free!
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">4. Does the school offer
+                            hostels & daycare?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            Absolutely! Comfortable hostels & nurturing daycare for a home-away-from-home experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="250">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">5. What makes Narayana School
+                            one of the best CBSE schools?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            Narayana School is among the best CBSE schools offering a unique blend of board and
+                            competitive exam preparation through programmes like e-Kidz, e-Champs, and e-Techno. Our
+                            advanced microschedules, personalised mentorship, and digital learning tools set us apart.
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">6. Is Narayana an English
+                            medium school?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            Yes, Narayana School offers a comprehensive English medium education, starting from nursery
+                            to senior secondary, with a strong focus on language development and overall growth. That's
+                            why, it is one of the best secondary schools.
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="350">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">7. How do I apply for
+                            admission to Narayana School under the CBSE curriculum?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            Admissions at Narayana School can be done online or by visiting our nearest branch. We offer
+                            the CBSE curriculum only. So, every Narayana School admission will be a CBSE admission. We
+                            welcome students for kindergarten, primary, and secondary levels
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="400">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">8. Does Narayana offer
+                            preschool and nursery education?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            Yes, through our e-Kidz programme, we offer a well-structured preschool and nursery
+                            curriculum that focuses on play-based learning and foundational skill development. It is as
+                            good as the best nursery school.
+                        </p>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-md bg-slate-50 overflow-hidden transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="450">
+                    <button
+                        class="w-full px-4 md:px-6 py-3 md:py-4 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="font-medium text-gray-800 text-sm md:text-base pr-4">9. How do I know where the
+                            nearest Narayana School is?</span>
+                        <div
+                            class="border border-gray-400 rounded-full w-5 h-5 md:w-6 md:h-6 flex items-center justify-center flex-shrink-0">
+                            <i
+                                class="fas fa-chevron-up text-gray-500 text-[10px] md:text-xs transition-transform duration-300 faq-icon rotate-180"></i>
+                        </div>
+                    </button>
+                    <div class="px-4 md:px-6 pb-4 hidden faq-content text-xs md:text-sm text-gray-600">
+                        <p>
+                            It is very easy to find the nearest branch of Narayana. You can either type Narayana on
+                            Google or type "schools near me CBSE", "preschool near me", "primary schools near me", "CBSE
+                            schools near me", or "nursery school near me".
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-[url('assets/footer-bg.webp')] bg-cover bg-center relative overflow-hidden">
+        <div class="doodle-overlay absolute inset-0 opacity-10 pointer-events-none"></div>
+        <div class="container mx-auto px-4 md:px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center">
+                <div class="w-full lg:w-1/2 max-w-xl text-center lg:text-left" data-aos="fade-right">
+                    <div class="shadow-2xl mb-6 md:mb-8">
+                        <img src="assets/footer.webp" alt="Students in hallway" class="w-full h-auto object-cover" />
+                    </div>
+                    <div class="text-white space-y-3 md:space-y-4">
+                        <p class="text-base md:text-lg font-medium px-2 lg:px-0">
+                            Limited seats available for 2026–27 academic year.
+                        </p>
+                        <p class="text-xl md:text-2xl font-bold">
+                            Secure your spot today!
+                        </p>
+                        <button
+                            class="open-modal-btn bg-white text-brandOrangeDark font-bold py-3 px-8 rounded-md shadow-lg hover:bg-gray-100 transition inline-flex items-center justify-center gap-2 mt-2 md:mt-4 w-full sm:w-auto">
+                            <i class="fas fa-download"></i> Download Brochure
+                        </button>
+                    </div>
+                </div>
+
+                <div class="w-full max-w-lg lg:max-w-none lg:w-[600px] bg-white p-5 md:p-6 rounded-xl shadow-2xl border-[3px] border-brandBlue mx-auto"
+                    data-aos="fade-left">
+                    <h3 class="text-xl md:text-3xl font-bold text-black mb-5 md:mb-6">
+                        Admission Open
+                    </h3>
+                    <form class="space-y-3">
+                        <input type="text" placeholder="Student Name"
+                            class="w-full px-4 py-2.5 border border-gray-300 rounded text-md focus:outline-none focus:border-brandBlue bg-gray-50" />
+                        <input type="tel" placeholder="Ph. Number"
+                            class="w-full px-4 py-2.5 border border-gray-300 rounded text-md focus:outline-none focus:border-brandBlue bg-gray-50" />
+                        <input type="email" placeholder="Parent's Email (Optional)"
+                            class="w-full px-4 py-2.5 border border-gray-300 rounded text-md focus:outline-none focus:border-brandBlue bg-gray-50" />
+                        <div class="relative">
+                            <select
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-md text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                                <option>Select City</option>
+                            </select><i
+                                class="fas fa-chevron-down absolute right-4 top-3.5 text-xs text-gray-400 pointer-events-none"></i>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-md text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                                <option>Select Branch</option>
+                            </select><i
+                                class="fas fa-chevron-down absolute right-4 top-3.5 text-xs text-gray-400 pointer-events-none"></i>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-md text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                                <option>Select Board</option>
+                            </select><i
+                                class="fas fa-chevron-down absolute right-4 top-3.5 text-xs text-gray-400 pointer-events-none"></i>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-md text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                                <option>Select Reservation Type</option>
+                            </select><i
+                                class="fas fa-chevron-down absolute right-4 top-3.5 text-xs text-gray-400 pointer-events-none"></i>
+                        </div>
+                        <div class="relative">
+                            <select
+                                class="w-full px-4 py-2.5 border border-gray-300 rounded text-md text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                                <option>Select Class</option>
+                            </select><i
+                                class="fas fa-chevron-down absolute right-4 top-3.5 text-xs text-gray-400 pointer-events-none"></i>
+                        </div>
+                        <button type="button"
+                            class="w-full md:w-24 mt-4 bg-brandOrange hover:bg-orange-600 text-white font-bold py-2.5 px-4 rounded text-sm transition shadow-md">
+                            Get OTP
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-6 mt-12 md:mt-16 relative z-20">
+                <div class="bg-white rounded-xl p-5 md:p-6 w-full max-w-md text-center shadow-lg" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="flex justify-center mb-2 md:mb-3">
+                        <img src="assets/narayana-logo.png" alt="Narayana" class="h-12 md:h-12 object-contain" />
+                    </div>
+                    <h4 class="font-bold text-gray-800 text-md md:text-lg">
+                        Narayana Schools
+                    </h4>
+                    <p class="text-md md:text-lg text-gray-500 mb-1 md:mb-2">
+                        No. of Schools
+                    </p>
+                    <div class="text-4xl md:text-5xl font-bold text-brandBlue">32</div>
+                </div>
+                <div class="bg-white rounded-xl p-5 md:p-6 w-full max-w-md text-center shadow-lg" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="flex justify-center mb-2 md:mb-3">
+                        <img src="assets/logo1.png" alt="Narayana" class="h-12 md:h-12 object-contain" />
+                    </div>
+                    <h4 class="font-bold text-gray-800 text-md md:text-lg">
+                        Narayana International School
+                    </h4>
+                    <p class="text-md md:text-lg text-gray-500 mb-1 md:mb-2">
+                        No. of Schools
+                    </p>
+                    <div class="text-4xl md:text-5xl font-bold text-brandOrange">
+                        06
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="admission-modal" class="fixed inset-0 z-[100] hidden items-center justify-center">
+        <div id="modal-backdrop"
+            class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity opacity-0 duration-300 cursor-pointer">
+        </div>
+
+        <div id="modal-content"
+            class="relative w-full max-w-md bg-white rounded-xl shadow-2xl border-[3px] border-brandBlue mx-4 transform scale-95 opacity-0 transition-all duration-300 z-10">
+            <button id="close-modal-btn"
+                class="absolute top-4 right-4 text-gray-400 hover:text-red-500 text-2xl focus:outline-none transition-colors duration-200">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <div class="p-6 md:p-8">
+                <h3 class="text-2xl font-bold text-black mb-6">Admission Enquiry</h3>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Student Name"
+                        class="w-full px-4 py-3 border border-gray-300 rounded text-sm focus:outline-none focus:border-brandBlue bg-gray-50" />
+                    <input type="tel" placeholder="Ph. Number"
+                        class="w-full px-4 py-3 border border-gray-300 rounded text-sm focus:outline-none focus:border-brandBlue bg-gray-50" />
+                    <input type="email" placeholder="Parent's Email (Optional)"
+                        class="w-full px-4 py-3 border border-gray-300 rounded text-sm focus:outline-none focus:border-brandBlue bg-gray-50" />
+                    <div class="relative">
+                        <select
+                            class="w-full px-4 py-3 border border-gray-300 rounded text-sm text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                            <option>Select City</option>
+                            <option>Kolkata</option>
+                            <option>Howrah</option>
+                        </select><i
+                            class="fas fa-chevron-down absolute right-4 top-4 text-xs text-gray-400 pointer-events-none"></i>
+                    </div>
+                    <div class="relative">
+                        <select
+                            class="w-full px-4 py-3 border border-gray-300 rounded text-sm text-gray-500 appearance-none bg-gray-50 focus:outline-none focus:border-brandBlue">
+                            <option>Select Branch</option>
+                        </select><i
+                            class="fas fa-chevron-down absolute right-4 top-4 text-xs text-gray-400 pointer-events-none"></i>
+                    </div>
+                    <button type="button"
+                        class="w-full mt-2 bg-brandOrange hover:bg-orange-600 text-white font-bold py-3 px-4 rounded text-sm transition shadow-md">
+                        Submit Enquiry
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
