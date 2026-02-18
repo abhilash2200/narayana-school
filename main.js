@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // 1. Initialize Splide Carousels FIRST
     const academicSlider = new Splide('#academic-slider', {
         type: 'loop', perPage: 3, gap: '2rem', padding: '1rem', pagination: false, arrows: true,
-        breakpoints: { 1024: { perPage: 3 }, 768: { perPage: 2 }, 640: { perPage: 1, padding: '0rem' } }
+        breakpoints: { 1024: { perPage: 3 }, 768: { perPage: 2 }, 640: { perPage: 1, padding: '2rem' } }
     }).mount();
 
     const testimonialSlider = new Splide('#testimonial-slider', {
