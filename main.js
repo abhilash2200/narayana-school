@@ -134,22 +134,33 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-function sendOtp() {
-  const btn = document.getElementById("btnText");
-  const loader = document.getElementById("loader");
-  const text = document.getElementById("btnText");
-  const status = document.getElementById("statusText");
+function sendOtp(button) {
+    if (!button || button.disabled) {
+        return;
+    }
 
-  btn.disabled = true;
-  loader.classList.remove("hidden");
-  status.classList.remove("hidden");
-  text.innerText = "Sending OTP...";
+    const wrapper = button.parentElement;
+    const text = button.querySelector('.otp-btn-text');
+    const loader = button.querySelector('.otp-loader');
+    const status = wrapper ? wrapper.querySelector('.otp-status') : null;
 
-  // simulate API delay
-  setTimeout(() => {
-    // on success
-    loader.classList.add("hidden");
-    text.innerText = "Submit";
-    status.innerText = "OTP sent successfully.";
-  }, 2500);
+    if (!text || !loader || !status) {
+        return;
+    }
+
+    button.disabled = true;
+    button.classList.add('opacity-80', 'cursor-not-allowed');
+    loader.classList.remove('hidden');
+    status.classList.add('hidden');
+    text.innerText = 'Sending OTP...';
+
+    // Simulate API delay
+    setTimeout(() => {
+        loader.classList.add('hidden');
+        text.innerText = 'Get OTP';
+        status.innerText = 'OTP sent successfully.';
+        status.classList.remove('hidden');
+        button.disabled = false;
+        button.classList.remove('opacity-80', 'cursor-not-allowed');
+    }, 2500);
 }
